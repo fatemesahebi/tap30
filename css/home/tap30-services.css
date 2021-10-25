@@ -16,6 +16,7 @@ button{
     padding: 20px;
     font-size: 3rem;
     line-height: 5rem;
+    ...
 }
 
 .tab-content div {

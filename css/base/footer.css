@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    text-align: right;
+}
+
+.footer a {
+    font-size: 14px;
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer a:hover {
+    color: var(--orange);
+}
+
+.footer h3{
+    font-size: 12px;
+}
+
+.footer h6{
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: text;
+}
+.footer p{
+    font-size: 14px;
+}
+
+.footer__content--logo img {
+    width: 130px;
+    margin: 10px 0;
+}
+
+.footer__content--cul {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.footer__content--trustLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__content--trustLogo div {
+    background-color: var(--white);
+    border-radius: 12px;
+    padding: 7px 2px;
+}
+
+.footer__content--trustLogo img {
+    width: 120px;
+    height: 125px;
+}
+
+.footer__copyRightM {
+    padding: 20px 0;
+    color: var(--gray1);
+    display: block;
+}
+
+.footer__socialMedia {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.footer__socialMedia a i{
+    color: var(--gray1);
+    font-size: 25px;
+}
+
+.footer__socialMedia a i:hover {
+    color: var(--orange);
+}

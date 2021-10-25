@@ -1,0 +1,67 @@
+/*=============== main style ================*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    background-color: #f8f8f8;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-bottom: 1px solid #ddd;
+    z-index: 1030;
+    align-items: center;
+}
+a.navbar-brand {
+    margin-left: 25px;
+}
+  svg:hover .path1{
+    fill: #ff5722;
+  }
+  svg:hover .path2{
+    fill: #000;
+  }
+.menuContainer{
+    display: flex;
+    justify-content: start;
+}
+.menuLinksList{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.menuLink{
+    text-decoration: none;
+    color: #545454;
+    font-size: 15px;
+    display: block;
+}
+.menuLinksList li{
+    padding: 0px 25px 0px 0px;
+}
+.menuLink:hover{
+    color: #ff5722;
+}
+#downloadTapsiLink:hover{
+transform: scale(.98);
+}
+#downloadTapsiLink{
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #ff5722;
+    padding: 7px 40px;
+    margin-right: 25px;
+    display: block;
+    border-radius: 8px;
+    line-height: 30px;
+}

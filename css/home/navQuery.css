@@ -1,0 +1,39 @@
+/*=============== media query for large laptops ================*/
+@media  screen and (min-width: 1440px){
+    nav{
+        height: 100px;
+    }
+    #tapsiSvg {
+        width: 200px;
+        height: 50px;
+    }
+    .menuLinksList li a{
+        font-size: 20px;
+    }
+        #downloadTapsiLink{
+        font-size: 20px;
+        padding: 15px 40px;
+        margin-right: 60px;
+    }
+}
+/*=============== media query for 4K ================*/
+@media  screen and (min-width: 2560px){
+    nav{
+        height: 200px;
+    }
+    #tapsiSvg {
+        width: 250px;
+        height: 100px;
+    }
+    .menuLinksList li a{
+        font-size: 27px;
+    }
+    #downloadTapsiLink{
+        font-size: 27px;
+        padding: 15px 60px;
+        margin-right: 60px;
+    }
+    .menuLinksList li{
+        padding: 0px 50px 0px 0px;
+    }
+}

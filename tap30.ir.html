@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>tap30-homepage</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/base/global.css">
+    <script src="js/tap30-services.js"></script>
 </head>
 <body>
 <!-----------------------------menu------------------------- -->
@@ -15,77 +18,81 @@
 
 </div>
 <!----------------------------tap30 services---------------------->
-<h2>
-    سرویس های تپسی
-</h2>
-<!-- Tab links -->
-<div class="tab">
-    <button class="tab-links" id = "default-open" onclick="openTab(event, 'cc-classic')">
-        <img src="files/images/cc-classic.png"/>
-        <p>تپسی کلاسیک</p>
-    </button>
-    <button class="tab-links" onclick="openTab(event, 'cc-motopeyk')">
-        <img src="files/images/cc-motopeyk.png"/>
-        <p>موتو پیک</p>
-    </button>
-    <button class="tab-links" onclick="openTab(event, 'cc-autopeyk')">
-        <img src="files/images/cc-autopeyk.png"/>
-        <p>اتو پیک</p>
-    </button>
-    <button class="tab-links" onclick="openTab(event, 'cc-plus')">
-        <img src="files/images/cc-plus.png"/>
-        <p>تپسی لاین</p>
-    </button>
-    <button class="tab-links" onclick="openTab(event, 'cc-tel')">
-        <img src="files/images/cc-tel.png"/>
-        <p>تپسی تلفنی</p>
-    </button>
-    <button class="tab-links" onclick="openTab(event, 'cc-hamyar')">
-        <img src="files/images/cc-hamyar.png"/>
-        <p>همیار</p>
-    </button>
-    <button class="tab-links" onclick="openTab(event, 'cc-hamkhat')">
-        <img src="files/images/cc-hamkhat.png"/>
-        <p>هم خط</p>
-    </button>
-    <button class="tab-links" onclick="openTab(event, 'cc-taxi')">
-        <img src="files/images/cc-taxi.png"/>
-        <p>تاکسی</p>
-    </button>
-    <button class="tab-links" onclick="openTab(event, 'cc-line')">
-        <img src="files/images/cc-line.png"/>
-        <p>تپسی لاین</p>
-    </button>
+<div id = "tap30-services">
+    <h2>
+        سرویس های تپسی
+    </h2>
+    <!-- Tab links -->
+    <div class="tab">
+        <button class="tab-links" id = "default-open" onclick="openTab(event, 'cc-classic')">
+            <img src="files/images/cc-classic.png"/>
+            <p>تپسی کلاسیک</p>
+        </button>
+        <button class="tab-links" onclick="openTab(event, 'cc-motopeyk')">
+            <img src="files/images/cc-motopeyk.png"/>
+            <p>موتو پیک</p>
+        </button>
+        <button class="tab-links" onclick="openTab(event, 'cc-autopeyk')">
+            <img src="files/images/cc-autopeyk.png"/>
+            <p>اتو پیک</p>
+        </button>
+        <button class="tab-links" onclick="openTab(event, 'cc-plus')">
+            <img src="files/images/cc-plus.png"/>
+            <p>تپسی لاین</p>
+        </button>
+        <button class="tab-links" onclick="openTab(event, 'cc-tel')">
+            <img src="files/images/cc-tel.png"/>
+            <p>تپسی تلفنی</p>
+        </button>
+        <button class="tab-links" onclick="openTab(event, 'cc-hamyar')">
+            <img src="files/images/cc-hamyar.png"/>
+            <p>همیار</p>
+        </button>
+        <button class="tab-links" onclick="openTab(event, 'cc-hamkhat')">
+            <img src="files/images/cc-hamkhat.png"/>
+            <p>هم خط</p>
+        </button>
+        <button class="tab-links" onclick="openTab(event, 'cc-taxi')">
+            <img src="files/images/cc-taxi.png"/>
+            <p>تاکسی</p>
+        </button>
+        <button class="tab-links" onclick="openTab(event, 'cc-line')">
+            <img src="files/images/cc-line.png"/>
+            <p>تپسی لاین</p>
+        </button>
+    </div>
+
+    <!-- Tab content -->
+    <div id="cc-classic" class="tab-content">
+        Hello
+    </div>
+    <div id="cc-motopeyk" class="tab-content">
+        How are you?
+
+    </div>
+    <div id="cc-autopeyk" class="tab-content">
+
+    </div>
+    <div id="cc-plus" class="tab-content">
+
+    </div>
+    <div id="cc-tel" class="tab-content">
+
+    </div>
+    <div id="cc-hamyar" class="tab-content">
+
+    </div>
+    <div id="cc-hamkhat" class="tab-content">
+
+    </div>
+    <div id="cc-taxi" class="tab-content">
+
+    </div>
+    <div id="cc-line" class="tab-content">
+
+    </div>
 </div>
 
-<!-- Tab content -->
-<div id="cc-classic" class="tab-content">
-
-</div>
-<div id="cc-motopeyk" class="tab-content">
-
-</div>
-<div id="cc-autopeyk" class="tab-content">
-
-</div>
-<div id="cc-plus" class="tab-content">
-
-</div>
-<div id="cc-tel" class="tab-content">
-
-</div>
-<div id="cc-hamyar" class="tab-content">
-
-</div>
-<div id="cc-hamkhat" class="tab-content">
-
-</div>
-<div id="cc-taxi" class="tab-content">
-
-</div>
-<div id="cc-line" class="tab-content">
-
-</div>
 <!------------------------------tap30 Business-------------------->
 <div>
 
@@ -110,6 +117,6 @@
 <footer>
 
 </footer>
-
+<script src="js/tap30-services.js"></script>
 </body>
 </html>

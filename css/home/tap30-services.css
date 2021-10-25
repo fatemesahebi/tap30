@@ -1,3 +1,55 @@
-button{
+#tap30-services{
+    width: 80vw;
+    margin: auto;
+}
+.tab{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.tab button.active{
+    filter: opacity(100%);
+}
+.tab-links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+img{
+    max-width: 95px;
+    filter: opacity(50%);
+}
+img:hover{
+    filter: opacity(100%);
+}
 
+#cc-motopeyk{
+    display: none;
+}
+#cc-autopeyk{
+    display: none;
+}
+#cc-plus{
+    display: none;
+}
+#cc-tel{
+    display: none;
+}
+#cc-hamyar{
+    display: none;
+}
+#cc-hamkhat{
+    display: none;
+}
+#cc-taxi{
+    display: none;
+}
+#cc-line{
+    display: none;
 }

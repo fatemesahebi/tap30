@@ -30,7 +30,7 @@
 }
 
 .footer h6{
-    font-size: 20rem;
+    font-size: 2rem;
     margin-bottom: 10px;
     cursor: text;
 }
@@ -96,6 +96,7 @@
 @media only screen and (min-width: 769px){
     .footer{
         padding: 80px 20px;
+        align-items: center;
     }
     .footer p{
         font-size: 1.2rem;
@@ -141,6 +142,9 @@
     }
 }
 @media only screen and (min-width: 1441px){
+    .footer{
+        align-items: center;
+    }
     .footer__content--trustLogo img {
         width: 16rem;
     }

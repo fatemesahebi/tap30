@@ -15,14 +15,14 @@ body {
 
 }
 .title {
-    margin: 0.5rem 2rem 0.5rem 0;
+    margin: 0.5rem 2rem 4rem 0;
 }
 .cities-wrapper {
     display: flex;
-    gap: 5rem;
+    gap: 9.5rem;
     direction: rtl;
     box-sizing: border-box;
-    margin:1rem 2rem 0 11rem;
+    margin:1rem 2rem 0 19rem;
     font: inherit;
     row-gap:0;
     flex-wrap: wrap;
@@ -39,6 +39,11 @@ body {
     letter-spacing: 3px;
     font-weight: inherit;
 }
+.city{
+    padding: 0 1.5rem 0 1.5rem;
+    width:2%;
+}
+
 
 @media screen and {
 

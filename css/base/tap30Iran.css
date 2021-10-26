@@ -82,6 +82,7 @@ body {
 }
 @media screen and (max-width: 770px){
     #section-cities {
-      visibility: hidden;
+      /*visibility: hidden;*/
+        display: none;
     }
 }

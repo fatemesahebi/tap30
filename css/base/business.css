@@ -1,0 +1,55 @@
+.business{
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5% 10%;
+}
+.businessTitle{
+    color: black;
+    font-size: 3.3rem;
+    font-weight: 500;
+}
+.businessText{
+    text-align: justify;
+    width: 85%;
+    line-height: 30px;
+}
+.businessLink{
+    text-decoration: none;
+    color: var(--orange);
+}
+.businessLink img{
+    transform: translateY(7px);
+}
+.businessLeft img{
+    width: 95%;
+}
+.businessLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 5rem 0 0;
+}
+.businessButton{
+    background-color: var(--orange);
+    color: white;
+    border: none;
+    padding: 20px 32px;
+    text-decoration: none;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 13px;
+}
+@media screen and (max-width: 800px) {
+    .business{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .business .businessLeft{order: 1}
+    .business .businessRight{order: 2}
+    .businessText{
+        width: 100%;
+        font-size: 1.3rem;
+        line-height: 20px;
+    }
+}

@@ -6,23 +6,26 @@
     width: 100vw;
 }
 .header img{
-width:518px;
+width:36vw;
     float: left;
-   padding: 7vw 10vw;
+   padding: 10vw;
 
 }
 .header #clear{
     clear: both;
 }
 /*--------------------------------setting for small screen--------------------------*/
-@media screen and (max-width: 1100px) {
+
+@media (max-width: 1100px) {
     .header img{
         display: none;
     }
+
 }
-@media screen and (max-width:768px) {
-    .header{
+@media (max-width: 760px) {
+    .header {
+        background-image: url("../../files/images/banner-mobile.webp")!important;
         height:478px;
-        background-image: url("../../files/images/banner-mobile.webp");
     }
 }
+

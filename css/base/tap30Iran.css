@@ -1,0 +1,88 @@
+body {
+    font-family: IRANSans;
+}
+#section-cities {
+    padding: 2.5rem 5%;
+    background-image: url("../../files/images/map-back.svg");
+    background-repeat: no-repeat;
+    background-color: #f8f8f9;
+
+}
+.container-tap30-iran{
+    direction: rtl;
+    width: 100%;
+    height: 43%;
+
+}
+.title {
+    margin: 0.5rem 2rem 4rem 0;
+}
+.cities-wrapper {
+    display: flex;
+    gap: 8.5%;
+    direction: rtl;
+    box-sizing: border-box;
+    margin:1rem 2rem 0 17rem;
+    font: inherit;
+    row-gap:0;
+    flex-wrap: wrap;
+
+
+}
+.name {
+    font-size: 14px;
+    font-weight: inherit;
+}
+
+.english-name {
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: inherit;
+}
+.city{
+    padding: 0 1.5rem 0 1.5rem;
+    width:2%;
+}
+
+@media screen and (max-width: 1600px){
+    .cities-wrapper {
+        display: flex;
+        gap: 8.5%;
+        direction: rtl;
+        box-sizing: border-box;
+        margin:1rem 2rem 0 17rem;
+        font: inherit;
+        row-gap:0;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 1300px){
+    .cities-wrapper {
+        display: flex;
+        gap: 7.5%;
+        direction: rtl;
+        box-sizing: border-box;
+        margin:1rem 2rem 0 11rem;
+        font: inherit;
+        row-gap:0;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 991px){
+    .cities-wrapper {
+        display: flex;
+        gap: 6.5%;
+        direction: rtl;
+        box-sizing: border-box;
+        margin:1rem 2rem 0 5rem;
+        font: inherit;
+        row-gap:0;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 770px){
+    #section-cities {
+      /*visibility: hidden;*/
+        display: none;
+    }
+}

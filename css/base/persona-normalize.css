@@ -6,7 +6,8 @@ body{
     font-weight: 400;
     font-size: 1.4rem;
     color:var(--gray4);
-    background-color: #FFFFFF;
+    background-color: var(--white);
+
 }
 h2{
     font-size:3.5rem;

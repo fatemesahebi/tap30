@@ -1,0 +1,41 @@
+body {
+    font-family: IRANSans;
+}
+#section-cities {
+    padding: 2.5rem 5%;
+    background-image: url("../../files/images/map-back.svg");
+    background-repeat: no-repeat;
+    background-color: #f8f8f9;
+}
+.container{
+    direction: rtl;
+    width: 100%;
+    height: 43%;
+
+}
+.title {
+    margin: 0.5rem 2rem 0.5rem 0;
+}
+.cities-wrapper {
+    display: flex;
+    gap: 5rem;
+    direction: rtl;
+    box-sizing: border-box;
+    margin:1rem 2rem 0 11rem;
+    font: inherit;
+    flex-flow: row wrap;
+    row-gap:0;
+    align-items: stretch;
+
+
+}
+.name {
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.english-name {
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: inherit;
+}

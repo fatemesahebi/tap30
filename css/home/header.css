@@ -5,7 +5,7 @@
     height:calc(100vh - 61px - 220px);
     width: 100vw;
 }
-.header img{
+.mobile-img{
 width:36vw;
     float: left;
    padding: 10vw;
@@ -17,7 +17,7 @@ width:36vw;
 /*--------------------------------setting for small screen--------------------------*/
 
 @media (max-width: 1100px) {
-    .header img{
+    .mobile-img{
         display: none;
     }
 

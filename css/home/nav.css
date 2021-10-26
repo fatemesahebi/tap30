@@ -1,25 +1,28 @@
 /*=============== main style ================*/
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 nav{
     margin: 0 auto;
+    padding: 0;
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 60px;
+    height: 6rem;
     background-color: #f8f8f8;
     position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    border-bottom: 1px solid #ddd;
-    z-index: 1030;
+    border-bottom: 0.1rem solid #ddd;
+    z-index: 10000;
     align-items: center;
 }
+
+.navBar {
+    display: block;
+    width: 80vw;
+}
+
 a.navbar-brand {
-    margin-left: 25px;
+    display: block;
+    float: right;
+    margin: 1.5rem 0 0 8rem;
 }
   svg:hover .path1{
     fill: #ff5722;
@@ -29,39 +32,38 @@ a.navbar-brand {
   }
 .menuContainer{
     display: flex;
-    justify-content: start;
+    justify-content: left;
 }
-.menuLinksList{
-    text-decoration: none;
-    list-style: none;
+.menuContainer dl{
     display: flex;
     flex-direction: row;
+    column-gap: 2vw ;
     align-items: center;
     justify-content: space-around;
 }
-.menuLink{
+.menuContainer dl dt a{
     text-decoration: none;
     color: #545454;
-    font-size: 15px;
+    font-size: 1.5rem;
+    font-weight: 300;
     display: block;
 }
-.menuLinksList li{
-    padding: 0px 25px 0px 0px;
+
+#downloadTapsiLink{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #ff5722;
+    padding: 0.7rem 4rem;
+    margin-right: 1.5vw;
+    display: block;
+    border-radius: 0.5vw;
+    line-height: 3rem;
 }
-.menuLink:hover{
+
+.menuContainer dl dt:hover{
     color: #ff5722;
 }
 #downloadTapsiLink:hover{
 transform: scale(.98);
-}
-#downloadTapsiLink{
-    font-size: 15px;
-    text-decoration: none;
-    color: #FFFFFF;
-    background-color: #ff5722;
-    padding: 7px 40px;
-    margin-right: 25px;
-    display: block;
-    border-radius: 8px;
-    line-height: 30px;
 }

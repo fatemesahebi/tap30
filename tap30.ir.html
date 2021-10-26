@@ -6,40 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tap30-homepage</title>
     <link rel="stylesheet" href="css/base/global.css">
+    <script src="js/burger-menu.js"></script>
+
 </head>
 <body>
-    <nav>
-        <div>
+<nav>
+    <div class="navBar">
         <a class="navbar-brand" href="../tap30/tap30.ir.html">
             <svg id="tapsiSvg" xmlns="http://www.w3.org/2000/svg" width="102" height="22" viewBox="0 0 102 22">
                 <g fill-rule="evenodd">
-                    <path fill="#000"   class="path1" d="M102 5.946h-3.222v4.28H91.8v-4.28h-3.221v4.28h-5.637a1.878 1.878 0 0 1-1.879-1.872V5.946h-3.221v2.408a1.878 1.878 0 0 1-1.879 1.873 1.878 1.878 0 0 1-1.879-1.873V5.946h-3.221v2.408a1.878 1.878 0 0 1-1.879 1.873h-1.879V5.946h-3.22v4.28h-17.18v3.212h3.758v.535c0 2.656-2.167 4.816-4.831 4.816-2.664 0-4.832-2.16-4.832-4.816v-3.746H37.58v3.746c0 4.426 3.613 8.027 8.053 8.027 4.44 0 8.052-3.6 8.052-8.027v-.535H68.985a5.09 5.09 0 0 0 3.489-1.381 5.09 5.09 0 0 0 3.49 1.38 5.09 5.09 0 0 0 3.489-1.38 5.089 5.089 0 0 0 3.489 1.38H102V5.947z"></path>
-                    <path fill="#000"  class="path1"  d="M84.702 19.297h3.854V22h3.304v-5.946h-7.158zM102 0h-6.561v2.973H102z"></path>
-                    <path fill="#FF5B35" class="path2" d="M26.842 11.297H10.737V5.946h16.105zM26.842 22H0v-5.351h26.842z"></path>
+                    <path fill="#000" class="path1"
+                          d="M102 5.946h-3.222v4.28H91.8v-4.28h-3.221v4.28h-5.637a1.878 1.878 0 0 1-1.879-1.872V5.946h-3.221v2.408a1.878 1.878 0 0 1-1.879 1.873 1.878 1.878 0 0 1-1.879-1.873V5.946h-3.221v2.408a1.878 1.878 0 0 1-1.879 1.873h-1.879V5.946h-3.22v4.28h-17.18v3.212h3.758v.535c0 2.656-2.167 4.816-4.831 4.816-2.664 0-4.832-2.16-4.832-4.816v-3.746H37.58v3.746c0 4.426 3.613 8.027 8.053 8.027 4.44 0 8.052-3.6 8.052-8.027v-.535H68.985a5.09 5.09 0 0 0 3.489-1.381 5.09 5.09 0 0 0 3.49 1.38 5.09 5.09 0 0 0 3.489-1.38 5.089 5.089 0 0 0 3.489 1.38H102V5.947z"></path>
+                    <path fill="#000" class="path1"
+                          d="M84.702 19.297h3.854V22h3.304v-5.946h-7.158zM102 0h-6.561v2.973H102z"></path>
+                    <path fill="#FF5B35" class="path2"
+                          d="M26.842 11.297H10.737V5.946h16.105zM26.842 22H0v-5.351h26.842z"></path>
                 </g>
             </svg>
         </a>
-    </div>
+        <div class="bergure-menu" onclick="openMenu()">
+            <span id="bar1"></span>
+            <span id="bar2"></span>
+            <span id="bar3"></span>
+        </div>
         <div class="menuContainer">
-            <ul class="menuLinksList">
-                <li>
-                    <a href="" class="menuLink">پشتیبانی</a>
-                </li>
-                <li>
-                    <a href="" class="menuLink">خدمات کسب وکارها</a>
-                </li>
-                <li>
-                    <a href="" class="menuLink">فرصت های شغلی</a>
-                </li>
-                <li>
-                    <a href="" class="menuLink">وبلاگ</a>
-                </li>
-            </ul>
+            <dl>
+                <dt> <a href="" >         پشتیبانی </a> </dt>
+                <dt> <a href="" > خدمات کسب وکارها </a> </dt>
+                <dt> <a href="" >    فرصت های شغلی </a> </dt>
+                <dt> <a href="" >             وبلاگ </a> </dt>
+            </dl>
             <div>
                 <a href="" id="downloadTapsiLink">دانلود تپسی</a>
             </div>
+
         </div>
-    </nav>
+    </div>
+</nav>
+<div class="bergure-content">
+    <dl>
+        <dt><a href="" class="menuLink"> وبلاگ </a></dt>
+        <dt><a href="" class="menuLink"> فرصت&zwnj;های شغلی </a></dt>
+        <dt><a href="" class="menuLink"> خدمات کسب&zwnj;وکارها </a></dt>
+        <dt><a href="" class="menuLink"> پشتیبانی </a></dt>
+    </dl>
+</div>
+
 <!----------------------------header--------------------------->
 <div>
 

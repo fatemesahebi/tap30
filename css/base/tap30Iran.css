@@ -6,6 +6,7 @@ body {
     background-image: url("../../files/images/map-back.svg");
     background-repeat: no-repeat;
     background-color: #f8f8f9;
+
 }
 .container{
     direction: rtl;
@@ -23,19 +24,22 @@ body {
     box-sizing: border-box;
     margin:1rem 2rem 0 11rem;
     font: inherit;
-    flex-flow: row wrap;
     row-gap:0;
-    align-items: stretch;
+    flex-wrap: wrap;
 
 
 }
 .name {
     font-size: 14px;
-    letter-spacing: 3px;
+    font-weight: inherit;
 }
 
 .english-name {
     font-size: 14px;
     letter-spacing: 3px;
     font-weight: inherit;
+}
+
+@media screen and {
+
 }

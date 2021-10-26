@@ -2,16 +2,15 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
-    height: auto;
+    height: 75vh;
     background-color: var(--white);
+    column-gap: 120px;
 }
 
 .image--0105 {
-    width: 100%;
-    height: 80%;
-    margin: 10rem 15rem 13rem 13rem;
+    width: 35%;
     object-fit: contain;
 
 }
@@ -20,7 +19,7 @@
     background-color: var(--orange);
     color: var(--white);
     width: 23rem;
-    height: 5.6rem;
+    height: 5.4rem;
     border: 0;
     border-radius: 9px;
     cursor: pointer;
@@ -29,9 +28,13 @@
 
 }
 
+.but--0105:hover {
+    opacity: 0.89;
+}
+
 
 .h2--0105 {
-    font-weight: inherit;
+    font-weight: bold;
     color: var(--black);
 
 }
@@ -40,31 +43,29 @@
     font-size: 1.7rem;
     font-weight: inherit;
     line-height: 3rem;
-    margin-left: 15rem;
     color: var(--gray5);
     text-align: justify;
+    width: 500px;
 
 }
 
 .con_0105--text {
-    margin: 7rem 28rem 13rem 2rem;
+    margin-top: -4rem;
 }
 
 @media screen and (max-width: 1024px) {
-    .con_0105--text {
-        margin: 7rem 16rem 13rem 0;
-    }
 
     .p--0105 {
-        margin-left: 10rem;
+        width: 350px;
     }
 
     .image--0105 {
-        margin: 10rem 10rem 13rem 13rem;
+        width: 38%;
+        margin: 3rem 2rem;
     }
 
     .con_0105 {
-        align-items: center;
+        column-gap: 70px;
     }
 }
 
@@ -74,27 +75,25 @@
         align-items: center;
         width: 100%;
         height: auto;
-        background-color: var(--white);
-        /*background-color: palegreen;*/
+
     }
 
     .con_0105--text {
-        margin: 4.5rem 3rem 13rem 3rem;
+        margin: 2.5rem 2.5rem 8rem 0;
     }
 
     .p--0105 {
         margin-left: auto;
-        font-size: 14px !important
+        font-size: 14px !important;
+        width: 88%;
     }
 
     .image--0105 {
         width: 88%;
-        margin: 3rem auto 0 auto;
         display: flex;
     }
 
     .h2--0105 {
-        margin-top: 0;
         font-size: 2.1rem;
         font-weight: bold;
     }

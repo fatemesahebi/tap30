@@ -7,7 +7,9 @@
 .tab{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 .tab div{
@@ -67,5 +69,28 @@
 .tab-content img {
     width:90%;
     margin: 40px 0 ;
+}
+
+
+@media (max-width: 360px) {
+    .tab-content h3{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .tab-content p{
+        font-size: 14px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+    .tab-content img{
+        display: none;
+    }
+    .tab-content div:first-of-type {
+        width: 100%;
+    }
+    .tab-content {
+        flex-direction: column;
+    }
+
 }
 

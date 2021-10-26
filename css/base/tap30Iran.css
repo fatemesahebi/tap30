@@ -19,10 +19,10 @@ body {
 }
 .cities-wrapper {
     display: flex;
-    gap: 9.5rem;
+    gap: 8.5%;
     direction: rtl;
     box-sizing: border-box;
-    margin:1rem 2rem 0 19rem;
+    margin:1rem 2rem 0 17rem;
     font: inherit;
     row-gap:0;
     flex-wrap: wrap;
@@ -44,7 +44,44 @@ body {
     width:2%;
 }
 
-
-@media screen and {
-
+@media screen and (max-width: 1600px){
+    .cities-wrapper {
+        display: flex;
+        gap: 8.5%;
+        direction: rtl;
+        box-sizing: border-box;
+        margin:1rem 2rem 0 17rem;
+        font: inherit;
+        row-gap:0;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 1300px){
+    .cities-wrapper {
+        display: flex;
+        gap: 7.5%;
+        direction: rtl;
+        box-sizing: border-box;
+        margin:1rem 2rem 0 11rem;
+        font: inherit;
+        row-gap:0;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 991px){
+    .cities-wrapper {
+        display: flex;
+        gap: 6.5%;
+        direction: rtl;
+        box-sizing: border-box;
+        margin:1rem 2rem 0 5rem;
+        font: inherit;
+        row-gap:0;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 770px){
+    #section-cities {
+      visibility: hidden;
+    }
 }

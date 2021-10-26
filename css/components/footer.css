@@ -10,7 +10,7 @@
     color: var(--white);
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 1rem;
     text-align: right;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .footer__content--logo img {
-    width: 130px;
+    width: 13rem;
     margin: 10px 0;
 }
 .footer__copyRightL{
@@ -56,17 +56,18 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: stretch;
+    gap: 0.2rem;
 }
 
 .footer__content--trustLogo div {
     background-color: var(--white);
     border-radius: 12px;
-    padding: 7px 2px;
+    padding: 1rem 0;
 }
 
 .footer__content--trustLogo img {
-    width: 120px;
-    height: 125px;
+    width: 9.9rem;
 }
 
 .footer__copyRightM {
@@ -92,9 +93,9 @@
     color: var(--orange);
 }
 
-@media only screen and (min-width: 765px) and (max-width: 1440px){
+@media only screen and (min-width: 769px){
     .footer{
-        padding: 80px 40px;
+        padding: 80px 20px;
     }
     .footer p{
         font-size: 12px;
@@ -104,7 +105,7 @@
         flex-direction: row;
     }
     .footer__content--logo{
-        width: 15%;
+        width: 16%;
         line-height: 30px;
     }
     .footer__copyRightL{
@@ -112,7 +113,7 @@
         width: 71%;
     }
     .footer__content--cul{
-        width: 15%;
+        width: 14%;
         margin-top: 0;
     }
     .footer__content--trustLogo{
@@ -124,8 +125,7 @@
         margin: 0 5px;
     }
     .footer__content--trustLogo img {
-        width: 87px;
-        height: 91px;
+        width: 8.5rem;
     }
     .footer__copyRightM{
         display: none;

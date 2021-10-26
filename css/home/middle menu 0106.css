@@ -2,23 +2,21 @@ body{
     box-sizing: border-box;
 }
 .bgimg-1{
+    background-color: green;
     color: #fff;
     background-image: url("files/images/parallax.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 140px;
     padding: 20px 10%;
 }
 .content-paralax{
+    height: 140px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-/*.item-paralax{*/
-/*    padding:10px;*/
-/*}*/
 .title{
     text-align: center;
     font-weight: 700;
@@ -35,6 +33,11 @@ body{
 }
 .item-paralax{
     width: 33%;
+}
+.ver-line{
+    width: 3px;
+    height: 50px;
+    background-color: #fff;
 }
 .bar{
     font-size: 30px;

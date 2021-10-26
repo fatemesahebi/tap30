@@ -7,7 +7,9 @@
 .tab{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 .tab div{
@@ -26,30 +28,10 @@
 .active{
     filter: opacity(100%);
 }
-#cc-motopeyk{
+#cc-motopeyk, #cc-autopeyk, #cc-plus, #cc-tel, #cc-hamyar, #cc-hamkhat, #cc-taxi, #cc-line {
     display: none;
 }
-#cc-autopeyk{
-    display: none;
-}
-#cc-plus{
-    display: none;
-}
-#cc-tel{
-    display: none;
-}
-#cc-hamyar{
-    display: none;
-}
-#cc-hamkhat{
-    display: none;
-}
-#cc-taxi{
-    display: none;
-}
-#cc-line{
-    display: none;
-}
+
 .tab-content {
     height: 500px;
     display: flex;
@@ -67,5 +49,28 @@
 .tab-content img {
     width:90%;
     margin: 40px 0 ;
+}
+
+
+@media (max-width: 770px) {
+    .tab-content h3{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .tab-content p{
+        font-size: 14px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+    .tab-content img{
+        display: none;
+    }
+    .tab-content div:first-of-type {
+        width: 100%;
+    }
+    .tab-content {
+        flex-direction: column;
+    }
+
 }
 

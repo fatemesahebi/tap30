@@ -140,3 +140,8 @@
         gap: 10px;
     }
 }
+@media only screen and (min-width: 1441px){
+    .footer__content--trustLogo img {
+        width: 16rem;
+    }
+}

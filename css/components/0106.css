@@ -59,7 +59,7 @@
     color: var(--white);
     border-radius: 1vw;
     text-align: center;
-    padding: 2.8rem 0;
+    padding: 2.6rem 0;
 }
 
 .link:hover {
@@ -68,20 +68,8 @@
 }
 
 @media screen and (max-width: 425px) {
-    .drivers {
-        width: 100%;
-        flex-direction: column;
-        margin-right: 0;
-        align-items: center;
-    }
-    .drivers__img{order: 1}
-    .drivers__content{order: 2}
     .drivers__img--pic {
         height: 55vw;
-    }
-
-    .drivers__content {
-        margin: 3rem 0;
     }
 
     .drivers__content--title {
@@ -109,23 +97,13 @@
         font-weight: 400;
     }
 
-    .drivers__content--link {
-        flex-direction: column;
-        margin-top: 3rem;
-        justify-content: center;
-        align-items: center;
-    }
-
     .link {
         width: 60vw;
         font-size: 4vw;
         border-radius: 5vw;
-        margin-bottom: 2rem;
-        padding: 2rem 0;
     }
 }
-
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .drivers {
         width: 100%;
         flex-direction: column;
@@ -136,13 +114,26 @@
     .drivers__img{order: 1}
     .drivers__content{order: 2}
 
+    .drivers__content {
+        margin: 3rem 0;
+    }
+
+    .drivers__content--link {
+        flex-direction: column;
+        margin-top: 3rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .link{
+        margin-bottom: 2rem;
+        padding: 2rem 0;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
     .drivers__img--pic {
         border-radius: 2%;
         height: 55vw;
-    }
-
-    .drivers__content {
-        margin: 3rem 0;
     }
 
     .drivers__content--title {
@@ -170,19 +161,10 @@
         font-weight: 500;
     }
 
-    .drivers__content--link {
-        flex-direction: column;
-        margin-top: 3rem;
-        justify-content: center;
-        align-items: center;
-    }
-
     .link {
         width: 30vw;
         font-size: 1.8vw;
         border-radius: 1.2vw;
-        margin-bottom: 2rem;
-        padding: 2rem 0;
     }
 }
 
@@ -205,23 +187,16 @@
     .drivers__content--list {
         font-size: 1.7vw;
         line-height: 3.3rem;
-        margin-top: 6rem;
     }
 
     .drivers__content--list h3 {
         font-size: 2vw;
     }
 
-    .drivers__content--link {
-        margin-top: 6rem;
-    }
-
     .link {
         width: 18vw;
         font-size: 1.4vw;
-        border-radius: 1vw;
         margin-left: 1vw;
-        padding: 2rem 0;
     }
 }
 
@@ -238,30 +213,19 @@
     }
 
     .drivers__content--caption {
-        font-size: 1.3vw;
         line-height: 3.8rem;
     }
 
     .drivers__content--list {
-        font-size: 1.3vw;
         line-height: 3.8rem;
-        margin-top: 6rem;
     }
 
     .drivers__content--list h3 {
         font-size: 1.4vw;
     }
 
-    .drivers__content--link {
-        margin-top: 6rem;
-    }
-
     .link {
-        width: 14vw;
-        font-size: 1vw;
-        border-radius: 1vw;
         margin-left: 1vw;
-        padding: 2rem 0;
     }
 }
 
@@ -278,7 +242,6 @@
 
     .drivers__content--caption {
         font-size: 0.7vw;
-        line-height: 4rem;
     }
 
     .drivers__content--list {
@@ -290,10 +253,6 @@
     .drivers__content--list h3 {
         font-size: 0.9vw;
         font-weight: 300;
-    }
-
-    .drivers__content--link {
-        margin-top: 6rem;
     }
 
     .link {

@@ -2,7 +2,7 @@ body{
     --white:#FFFFFF;
     --orange:#FF5722;
     --blue:#0000EE;
-    --gray1:#ACACAC;
+    --gray1: rgba(217, 205, 205, 0.94);
     --gray2:#SESESE;
     --gray3:#545454;
     --gray4:#4D4D4D;

@@ -8,8 +8,8 @@
 @import "../components/footer.css";
 @import "/css/home/tap30-services.css";
 @import "../home/header.css";
-@import "tap30Iran.css";
-@import "../home/nav.css";
-@import "../home/navQuery.css";
+@import "../home/tap30Iran.css";
+@import "../components/nav.css";
+@import "../components/navQuery.css";
 @import "../home/middle menu 0106.css";
-@import "../components/0106.css";
+@import "../home/0106.css";

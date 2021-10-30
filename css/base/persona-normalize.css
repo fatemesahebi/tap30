@@ -4,7 +4,7 @@ html{
 body{
     font-family: "Iranian Sans";
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     color:var(--gray4);
     background-color: var(--white);
 
@@ -26,4 +26,33 @@ p{
     font-size: 1.8rem;
     line-height: 3.2rem;
     font-weight: 400;
+}
+.btn{
+    color: var(--white);
+    border: none;
+    padding: 20px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 13px;
+    min-width: 230px;
+}
+
+@media screen and (max-width: 750px){
+    body{
+        font-size: 1.4rem;
+    }
+    h2{
+        font-size: 2.1rem;
+    }
+    h3{
+        font-size: 1.7rem;
+    }
+    p{
+        font-size: 1.4rem;
+
+    }
+    .btn{
+        width: 222px;
+    }
+
 }

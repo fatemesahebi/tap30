@@ -72,6 +72,10 @@
     .mobile-img{
         display: none;
     }
+    .header{
+        margin-bottom: 50px;
+
+    }
 
 }
 @media (max-width: 760px) {
